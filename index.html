@@ -18,6 +18,8 @@
     <meta name="mobile-web-app-capable" content="yes">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Babel Standalone for in-browser JSX/TSX transpilation -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <style>
         body {
             font-family: 'Hind Siliguri', sans-serif;
@@ -70,11 +72,11 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
 </head>
 <body>
     <div id="root"></div>
-    <script type="module" src="./index.tsx"></script>
+    <!-- Changed type to text/babel to be processed by Babel Standalone -->
+    <script type="text/babel" data-type="module" src="./index.tsx"></script>
     <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
@@ -84,6 +86,5 @@
             });
         }
     </script>
-<script type="module" src="/index.tsx"></script>
 </body>
 </html>

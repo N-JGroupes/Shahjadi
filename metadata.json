@@ -1,0 +1,7 @@
+{
+  "name": " Soft by Shahjadi",
+  "description": "A comprehensive Bengali mobile application for managing mosque accounts, including subscriptions, donations, and expenses.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

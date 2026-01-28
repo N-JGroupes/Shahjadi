@@ -1,0 +1,26 @@
+
+{
+  "id": "/",
+  "name": "পুরিয়া জামে মসজিদ",
+  "short_name": "মসজিদ আ্যপ",
+  "description": "মসজিদের আয়-ব্যয় ও সদস্য ব্যবস্থাপনার জন্য অফলাইন অ্যাপ",
+  "start_url": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#064E3B",
+  "theme_color": "#064E3B",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/6558/6558231.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/6558/6558231.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

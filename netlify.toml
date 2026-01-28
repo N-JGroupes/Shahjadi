@@ -1,0 +1,6 @@
+[build]
+  # This file configures Netlify's build process.
+  # For this project, no build command is needed as it's a simple static site.
+  command = ""
+  # The 'publish' directory is the root of the project where index.html is located.
+  publish = "."
